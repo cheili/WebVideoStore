@@ -10,7 +10,7 @@ import {MovieService} from '../../services/movie/movie.service';
 })
 export class DashboardComponent implements OnInit {
 
-  movies: Movie[] = []; 
+  movies: Movie[] = [];
 
   constructor(private movieService: MovieService) {}
 
